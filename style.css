@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Roboto'sans-serif;
+	background-color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	text-decoration: none;
+	list-style: none;
+}
+
+.container-main {
+	width: 100%;
+}
+.header-main{
+	display: flex;
+	margin:0 auto;
+}
+
+.header-navigation{
+	background-color: #fff;
+	display: flex;
+	margin-left: -100px;
+	
+	
+}
+
+.upper-part{
+	display: none;
+}
+
+.upper-partt {
+	text-align: left;
+	flex: 0 1 100%;
+	width: 460px;
+	margin: 10px;
+	border-bottom:  2px dotted #F4F4F4;
+
+
+}
+
+.bottom-part{
+	display: none;
+}
+
+
+
+
+/*Logo*/
+
+.header-logo--entry {
+	width: 100px;
+	
+}
+.header-logo--entry img {
+	width: 100px;
+	margin-left: 120px;
+	margin-top: 45px;
+}
+
+/*Header right*/
+.is--right{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 460px;
+}
+
+.text-continer .namb{
+color:  #AAB918;
+}
+.input-grup{
+	width: 200px;
+	position: relative;
+	margin-top: 80px;
+	margin-left: 170px;
+	
+}
+.input-grup input{
+	background: #AAB918;
+	width: 200px;
+	padding: 10px;
+	margin-top: 15px;
+	border: 1.7px solid #ffffff;
+	border-radius: 20px;
+
+
+}
+.button{
+	position: absolute;
+	top: 37%;
+	right: 0px;
+	border-radius:20px;
+
+}
+.input-grup .button img{
+	margin: 10px 10px 0px 0px;
+
+}
+.input-grup input[placeholder="search..."]{
+	padding-left: 15px;
+
+}
+
+
+.bottom-part-right {
+	display: flex;
+	
+
+}
+.icon-end {
+	display: flex;
+	margin-top: 30px;
+	margin-right: -80px;
+}
+
+.icon-end li a{
+	padding-left: 15px;
+	padding-right: 30px;
+}
+
+
+
+
+.search-form{
+	width: 50%;
+	margin-left: 30px;
+
+}
+
+
+ .account{
+background-color: #545A5F;
+width: 35px;
+height: 35px;
+}
+
+
+
+ .navmenu{
+ 	width: 460px;
+ 	height: 60px;
+ 	background-color: #AAB918;
+ 	margin-top: -50px;
+ }
+
+ .menu{
+ 	background: #ffffff;
+ 	display: inline-block;
+ 	height: 3px;
+ 	position: relative;
+ 	width: 20px;
+ 	margin-top: 30px;
+ 	margin-left: 15px;
+ 	cursor: pointer;
+ }
+
+ .menu::before,.menu::after{
+ 	background: #ffffff;
+ 	content: "";
+ 	display: inline-block;
+ 	height: 3px;
+ 	position: absolute;
+ 	width: 20px;
+ }
+ .menu::before{
+ 	top: 5px;
+
+ }
+ .menu::after{
+ 	top: -5px;
+
+ }
+
+ @media all and (min-width: 768px){
+
+
+ 	
+ }
